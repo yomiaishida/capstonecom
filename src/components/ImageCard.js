@@ -14,7 +14,7 @@ function ImageCard() {
   return (
     <div>
       <div className="card" style={{ width: "18rem" }}>
-        <img src={state.men.imgLink} className="card-img-top" alt="..." />
+        <img src={Img} className="card-img-top" alt="..." />
         <p>This is some paragraph</p>
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
